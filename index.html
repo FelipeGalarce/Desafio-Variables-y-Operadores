@@ -17,72 +17,59 @@
 </head>
 
 <body>
+
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-12 d-block d-md-none mx-auto"> <button type="button" class="toppi">
-                        <h1>Desafío
+                <div class="my-5 fs-2 side d-none d-md-block col-4 bg-dark text-white text-center">
+                    Desafío
+                    <hr> Uso de Variables y Operadores
+                    Aritméticos
+
+
+                </div>
+                <div class="col-8 mx-auto">
+                    <div class="row text-center">
+                        <div class="col-12 topper d-block d-md-none rounded-3 text-white" type="button">
+                            Desafío
                             <hr> Uso de Variables y Operadores
                             Aritméticos
-                        </h1>
-                    </button>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="my-5 side d-none d-md-block col-4 bg-dark text-white text-center">
-                    <h1 class="mt-3">Desafío
-                        <hr> Uso de Variables y Operadores
-                        Aritméticos
-                    </h1>
-
-                </div>
-                <div class="col-8">
-                    <div class="row text-center">
-                        <div class="col-12 mx-auto"> <button onclick="activar1()" type="button"
-                                class="selector">Calculadora
-                                Basica para 2
-                                numeros</button>
                         </div>
-                        <div class="col-12 mx-auto"> <button onclick="activar2()" type="button"
-                                class="selector">Conversor
-                                de
-                                Temperatura</button>
+                        <div class="col-12 fs-1 selector rounded-pill mt-3" onclick="activar1()" type="button">
+                            Calculadora
+                            Basica para 2
+                            numeros
                         </div>
-                        <div class="col-12 mx-auto"> <button onclick="activar3()" type="button"
-                                class="selector">Conversor
-                                de Dias en Años
-                                Semanas y Dias</button>
+                        <div class="col-12 fs-1 selector rounded-pill" onclick="activar2()" type="button">
+                            Conversor
+                            de
+                            Temperatura
                         </div>
-                        <div class="col-12 mx-auto"> <button onclick="activar4()" type="button"
-                                class="selector">Calcular
-                                Promedio de 5
-                                numeros</button>
+                        <div class="col-12 fs-1 selector rounded-pill" onclick="activar3()" type="button">
+                            Conversor
+                            de Dias en Años
+                            Semanas y Dias
+                        </div>
+                        <div class="col-12 fs-1 selector rounded-pill" onclick="activar4()" type="button">
+                            Promedio de 5
+                            numeros
+                        </div>
+                        <div class="col-12">
+                            <div class="text-center text-white fw-bold fs-1">
+                                <p>Resultados
+                                    <hr class="border border-4 border-secondary rounded-pill">
+                                </p>
+                            </div>
+                            <div class="caja-resultados">
+                                <div id="pantalla" class="resultados fs-5"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="container">
-            <div class="text-center text-white fw-bold fs-1">
-                <p>Resultados
-                    <hr class="border border-4 border-secondary rounded-pill">
-                </p>
-            </div>
 
-            <div class="caja-resultados">
-
-                <div id="pantalla" class="resultados"></div>
-            </div>
-        </div>
-    </section>
     <script src="assets/js/script.js"></script>
 </body>
 
