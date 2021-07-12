@@ -14,7 +14,7 @@ function activar1() {
     var num1 = validar(parseFloat(prompt("Escoge el primer numero. \n Debe ser Mayor a 0, de lo contrario se transformara a 1")));
     var num2 = validar(parseFloat(prompt("Escoge el segundo numero. \n Debe ser Mayor a 0, de lo contrario se transformara a 1")));
     var suma = num1+num2;
-    var resta = num1+num2;
+    var resta = num1-num2;
     var multiplicacion = num1*num2;
     var division = num1/num2;
     var modal = num1%num2;
