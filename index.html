@@ -22,6 +22,7 @@
     <section>
         <div class="container">
             <div class="row">
+                    <!-- esta parte se muestra en pantallas grandes -->
                 <div class="my-5 fs-2 side d-none d-md-block col-4 bg-dark text-white text-center">
                     Desafío
                     <hr> Uso de Variables y Operadores
@@ -31,11 +32,13 @@
                 </div>
                 <div class="col-8 mx-auto">
                     <div class="row text-center">
+                        <!-- ESTA PARTE SE MUESTRA EN PANTALLAS PEQUEÑAS, PARA QUE QUEDE TODO EN UNA SOLA COLUMNA -->
                         <div class="col-12 topper d-block d-md-none rounded-3 text-white" type="button">
                             Desafío
                             <hr> Uso de Variables y Operadores
                             Aritméticos
                         </div>
+                            <!-- ESTOS SON LOS BOTONES, QUE TIENEN EL ONCLICK PARA ACTIVAR CADA FUNCION -->
                         <div class="col-12 fs-1 selector rounded-pill mt-3" onclick="activar1()" type="button">
                             Calculadora
                             Basica para 2
@@ -61,6 +64,7 @@
                                     <hr class="border border-4 border-secondary rounded-pill">
                                 </p>
                             </div>
+                            <!-- aca esta la pantalla que se muestra abajo de los botones para dar el resultado, tiene el id pantalla que se toma desde javascript -->
                             <div class="caja-resultados">
                                 <div id="pantalla" class="resultados fs-5"></div>
                             </div>
